@@ -1,4 +1,4 @@
-package com.tedm.gnewsappcompose.ui.theme
+package com.tedm.gnewsappcompose.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
