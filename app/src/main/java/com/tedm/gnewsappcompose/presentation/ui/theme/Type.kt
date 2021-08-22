@@ -22,27 +22,27 @@ val Typography = Typography(
         fontFamily = quicksand,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
-        color = TextGray
+        color = TextBlack
     ),
 
     h1 = TextStyle(
         fontFamily = quicksand,
         fontWeight = FontWeight.Bold,
         fontSize = 30.sp,
-        color = TextWhite
+        color = TextBlack
     ),
 
     h2 = TextStyle(
         fontFamily = quicksand,
         fontWeight = FontWeight.Medium,
         fontSize = 24.sp,
-        color = TextWhite
+        color = TextBlack
     ),
 
     body2 = TextStyle(
         fontFamily = quicksand,
         fontWeight = FontWeight.Normal,
         fontSize = 12.sp,
-        color = TextWhite
+        color = TextBlack
     )
 )

@@ -6,13 +6,13 @@ import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
-private val LightColorPalette = lightColors(
-    primary = GreenAccent,
-    background = DarkGray,
-    onBackground = TextWhite,
-    onPrimary = DarkGray,
-    surface = MediumGray,
-    onSurface = LightGray
+private val DarkColorPalette = darkColors(
+    primary = OrangeAccent,
+    background = MediumGrey,
+    onBackground = TextBlack,
+    onPrimary = White,
+    surface = LightGrey,
+    onSurface = MediumGrey
 )
 
 @Composable
@@ -20,7 +20,7 @@ fun GNewsAppComposeTheme(
     content: @Composable() () -> Unit
 ) {
     MaterialTheme(
-        colors = LightColorPalette,
+        colors = DarkColorPalette,
         typography = Typography,
         shapes = Shapes,
         content = content
