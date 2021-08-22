@@ -7,6 +7,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.tedm.gnewsappcompose.presentation.home.HomeScreen
+import com.tedm.gnewsappcompose.presentation.more.MoreScreen
+import com.tedm.gnewsappcompose.presentation.news.NewsScreen
+import com.tedm.gnewsappcompose.presentation.profile.ProfileScreen
+import com.tedm.gnewsappcompose.presentation.search.SearchScreen
 import com.tedm.gnewsappcompose.presentation.splash.SplashScreen
 
 
@@ -22,6 +26,18 @@ fun Navigation(navController: NavHostController) {
         }
         composable(Screen.HomeScreen.route) {
             HomeScreen(navController = navController)
+        }
+        composable(Screen.NewsScreen.route) {
+            NewsScreen(navController = navController)
+        }
+        composable(Screen.SearchScreen.route) {
+            SearchScreen(navController = navController)
+        }
+        composable(Screen.ProfileScreen.route) {
+            ProfileScreen(navController = navController)
+        }
+        composable(Screen.MoreScreen.route) {
+            MoreScreen(navController = navController)
         }
     }
 }
