@@ -10,7 +10,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.tedm.gnewsappcompose.R
 import com.tedm.gnewsappcompose.domain.models.BottomNavItem
 import com.tedm.gnewsappcompose.presentation.util.Screen
 
@@ -50,7 +49,6 @@ fun StandardScaffold(
             contentDescription = "More"
         ),
     ),
-    onFabClick: () -> Unit = {},
     content: @Composable () -> Unit
 ) {
     Scaffold(

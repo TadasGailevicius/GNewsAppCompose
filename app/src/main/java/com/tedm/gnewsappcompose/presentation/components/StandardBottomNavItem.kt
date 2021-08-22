@@ -22,7 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.tedm.gnewsappcompose.presentation.ui.theme.HintGray
+import com.tedm.gnewsappcompose.presentation.ui.theme.MediumGrey
 import com.tedm.gnewsappcompose.presentation.ui.theme.SpaceSmall
 import java.lang.IllegalArgumentException
 
@@ -35,7 +35,7 @@ fun RowScope.StandardBottomNavItem(
     selected: Boolean = false,
     alertCount: Int? = null,
     selectedColor: Color = MaterialTheme.colors.primary,
-    unselectedColor: Color = HintGray,
+    unselectedColor: Color = MediumGrey,
     enabled: Boolean = true,
     onClick: () -> Unit
 ) {
